@@ -8,5 +8,12 @@ parser.add_option("--version", action="store_true", dest="version", help="output
 (options, args) = parser.parse_args()
 
 if options.version:
-    print
+    print('yes (pycoreutils) 0.1')
+else:
+    if args:
+        cmd = ' '.join(args)
+    else:
+        cmd = 'yes'
 
+    while True:
+        print(cmd)
