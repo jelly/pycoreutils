@@ -56,7 +56,7 @@
 /usr/bin/printenv
 /usr/bin/printf
 /usr/bin/ptx
-/usr/bin/pwd
+/usr/bin/pwd => done
 /usr/bin/readlink
 /usr/bin/realpath
 /usr/bin/rm
@@ -97,5 +97,5 @@
 /usr/bin/vdir
 /usr/bin/wc
 /usr/bin/who
-/usr/bin/whoami
-/usr/bin/yes
+/usr/bin/whoami => done
+/usr/bin/yes => done
